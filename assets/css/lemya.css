@@ -1,0 +1,24 @@
+/* Le Mya presentation overrides: warm, garden-inspired palette and demo cleanup. */
+:root { --primary-color: #355846; --secondary-color: #b78b4b; --background-color: #f6f3ec; --heading-color: #24372c; --border-color: #ded8ca; }
+.shopping-cart, #shoppingbutton, #shoppingbuttonMobile, #searchBtn, #searchBtnMobile, .subscribe-us, .our-blog, .testimonials, .reservation-events, .our-chefs, .our-partner, .counter, .about-story { display: none !important; }
+.item-price, .price-symbol, .item-btn { display: none !important; }
+.banner-content .book-a-table a, .book-a-table a { text-transform: uppercase; }
+
+.about-extra { display: none !important; }
+
+.loader { transition: opacity .35s ease; }
+.loader.loader-hidden { opacity: 0; pointer-events: none; }
+.lemya-delivery-section { background: #f6f3ec; }
+.lemya-delivery-card { background: #fff; border: 1px solid #ded8ca; border-radius: 1rem; box-shadow: 0 1rem 3rem rgba(36, 55, 44, .08); }
+.lemya-delivery-card .section-title { color: var(--primary-color); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+.lemya-delivery-card .form-control { min-height: 48px; border-color: #ded8ca; }
+.lemya-delivery-card textarea.form-control { min-height: initial; }
+.lemya-delivery-submit { background: #24734d; color: #fff; padding: .85rem 1.25rem; border: 0; font-weight: 700; }
+.lemya-delivery-submit:hover { background: #1b5b3c; color: #fff; }
+.lemya-delivery-call { color: var(--primary-color); font-weight: 700; }
+.lemya-delivery-hero-link { display: inline-block; margin: 1rem 0 0 1rem; color: #fff; font-weight: 700; text-decoration: underline; }
+@media (prefers-reduced-motion: reduce) { .loader { transition: none; } }
+
+.language-switch { border: 1px solid rgba(255,255,255,.45); border-radius: 999px; padding: .45rem .7rem; margin-left: .5rem; background: var(--primary-color); color: #fff; font-weight: 700; box-shadow: 0 .3rem 1rem rgba(0,0,0,.12); cursor: pointer; }
+.language-switch:hover, .language-switch:focus-visible { background: #24372c; color: #fff; }
+@media (max-width: 991px) { .language-switch { padding: .35rem .55rem; margin-left: .35rem; } }
